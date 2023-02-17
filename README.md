@@ -10,17 +10,16 @@ The aim of this report is to gain insights into the total payments made to Los A
 
 --------------------------
 # Section 1: Insights into Budget Allocation and Departmental Payouts
-![fig1a](https://github.com/unkletam/Los-Angeles-City-Employee-Payroll-Analysis/blob/main/png_assets/1A.png)
-### Question 1 - Which city departments have the highest volume of payouts in LA?
 
+### Question 1 - Which city departments have the highest volume of payouts in LA?
+![fig1a](https://github.com/unkletam/Los-Angeles-City-Employee-Payroll-Analysis/blob/main/png_assets/1A.png)
 ### Insight -
 The treemap (Fig1A) provides a visual representation of the city departments with the highest payroll. The departments listed, such as the Public Accountability Department, Fire Department, City Attorney Department, and Water and Power Department, are just some of the departments that have a significant payroll output.
 
 Additionally, the treemap shows that the volume of payouts in most Council districts is similar, indicating a balanced allocation of resources among the various council districts.
 
 ### Question 2 - How much do departments pay their top employees ?
-
-
+![fig1b](https://github.com/unkletam/Los-Angeles-City-Employee-Payroll-Analysis/blob/main/png_assets/1B.png)
 ### Insight - 
 
 The data from the "City Employee Payroll" dataset provides intriguing insights (Fig 1B) into the payroll distribution among Los Angeles City Employees. Surprisingly, the top three highest-paying professions are found within the Harbour Department, despite the overall payroll budget being lower compared to other departments such as Fire, Police, and Airport.
@@ -28,7 +27,7 @@ The data from the "City Employee Payroll" dataset provides intriguing insights (
 Upon further analysis, the data suggests that the payroll budget of the Harbour Department is skewed towards higher-paying positions. This finding may be explained by the ratio of jobs to the department, indicating that the Harbour Department has fewer employees relative to other departments.
 
 ### Question 3 - What are the employee benefits provided by city council ? How have they changed throughout the years?
-
+![fig1c](https://github.com/unkletam/Los-Angeles-City-Employee-Payroll-Analysis/blob/main/png_assets/1C.png)
 ### Insights -
 
 Fig 1C shows that the City Council allocates a significant portion of its payroll budget towards healthcare benefits, while comparatively less is allocated to other benefits.Also, it is important to note that this bias has seen incremental growth throughout the years where healthcare benefits have increased while rest of the benefits are stagnant. This allocation reflects the City Council's recognition of the high healthcare costs in California and the importance of providing adequate healthcare benefits to its employees.
@@ -36,7 +35,7 @@ Fig 1C shows that the City Council allocates a significant portion of its payrol
 However, this allocation also highlights the broader issue of the need for improvement in the healthcare industry in the United States. Compared to a developing country like India, the life insurance benefit to overall compensation ratio for city council employees in Los Angeles is low. This comparison highlights the need for the healthcare industry to improve, not only in the United States but globally.
 
 ### Question 4 - How are payroll resources allocated to bonus payments ? Does city council favor a particular type of bonus?
-
+![fig1d](https://github.com/unkletam/Los-Angeles-City-Employee-Payroll-Analysis/blob/main/png_assets/1D.png)
 
 ### Insights -
 
@@ -51,7 +50,7 @@ Permanent bonus pay, longevity bonus pay, and temporary bonus pay are all forms 
 According to the data presented in Figure 1D, a significant portion of payroll allocation is dedicated to permanent bonuses. Meanwhile, the allocation for longevity and temporary bonuses is roughly equal among city departments. While it is beneficial for employees to receive a high permanent bonus, it is also crucial for city council departments to pay attention to longevity bonuses, especially considering that the rate of attrition has increased in recent times. This could negatively impact a company's growth if not properly addressed.
 
 ### Question 5 - What percent of the employment is part time in the top 10 part time offering departments?
-
+![fig1e](https://github.com/unkletam/Los-Angeles-City-Employee-Payroll-Analysis/blob/main/png_assets/1E.png)
 ### Insight -
 
 A closer examination of Figure 1E reveals that while the Recreation and Parks Department might initially seem to have the largest representation of part-time positions, it is noteworthy that the City Clerk and Los Angeles Convention Center are equally competitive in this regard, both offering ample opportunities for individuals looking to pursue a part-time career path. With over 75% of part-time positions available, these departments present a viable option for job seekers seeking a balanced work-life setup. Thus, it is important to consider all three departments when exploring part-time job opportunities in the city.
@@ -61,7 +60,7 @@ A closer examination of Figure 1E reveals that while the Recreation and Parks De
 # Section 2: Are Employees Being Paid Fairly?
 
 ### Question 1 - Is the yearly payroll increment enough?
-
+![fig2a](https://github.com/unkletam/Los-Angeles-City-Employee-Payroll-Analysis/blob/main/png_assets/2A.png)
 ### Insight -
 
 The parallel coordinate chart in Figure 2A shows that city council employees have received substantial increases in their total salary. This is significant because it indicates that their actual income has managed to outpace inflation from the beginning.
@@ -69,7 +68,7 @@ The parallel coordinate chart in Figure 2A shows that city council employees hav
 For example, if an employee started with a salary of \$100,000 in 2013, by 2018 they would need to earn \$108,000 just to keep pace with inflation. In other words, the value of \$1000 in 2013 would have decreased to approximately $910 in present day. However, the chart demonstrates that the salary of city council employees has grown to an extent that they have effectively "beaten" inflation and maintained their purchasing power.
 
 ### Question 2 - Is the paygap between top 10% earners and bottom 10% earners getting closer?
-
+![fig2b](https://github.com/unkletam/Los-Angeles-City-Employee-Payroll-Analysis/blob/main/png_assets/2B.png)
 ### Insight -
 
 The Lollipop chart in Figure 2B shows that the pay gap between the top 10% highest earning employees and the bottom 10% lowest earning employees has slightly improved from 2013 to 2018.
@@ -82,7 +81,7 @@ Overall, while the marginal improvement shown in the Lollipop chart is a step in
 # Section 3: Addressing Controversies Using Statistics
 
 ### Question 1 - Is Temporary Bonus Pay more likely to be received by Police Officer-II employees?
-
+![fig3a](https://github.com/unkletam/Los-Angeles-City-Employee-Payroll-Analysis/blob/main/png_assets/3A.png)
 ### Insight -
 
 We conducted one sample t-test where the hypothesis are as follow:
@@ -94,7 +93,7 @@ We conducted one sample t-test where the hypothesis are as follow:
 According to the results of the t-test shown in Figure 3A, we observed that the sample mean is greater than the population mean, with a p-value of 0.5. However this won't allow us to reject the null hypothesis and conclude that Police Officer II employees are more likely to receive a Temporary Bonus compared to other employees in both the same and different departments. There isn't enough data to support alternate hypothesis.
 
 ### Question 2 - Was the data justified in supporting the statement that Recreation and Parks Department Employees were denied Longevity Bonus Pay in 2014?
-
+![fig3b](https://github.com/unkletam/Los-Angeles-City-Employee-Payroll-Analysis/blob/main/png_assets/3B.png)
 ### Insight -
 
 We conducted one sample t-test where the hypothesis are as follow:
