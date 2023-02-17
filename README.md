@@ -1,6 +1,7 @@
-# Los-Angeles-City-Employee-Payroll-Analysis
-Analyzing Los Angeles City Employee Payroll Data Using R
+# Los Angeles City Employee Payroll Analysis
+[![medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@unkletam/analyzing-los-angeles-city-employee-payroll-data-using-r-5bbd5e513bdf)
 
+--------------------------------------
 # Introduction & Problem Statement
 
 The "City Employee Payroll" dataset provides a comprehensive overview of the financial status of Los Angeles City Employees, including the three proprietary departments: Water and Power, Airports, and Harbor. This data was updated bi-weekly by the Los Angeles City Controller's Office and contains valuable information about employee payroll and benefits. This report focuses specifically on the total payments made to Los Angeles City Employees. The data covers the years between 2013 and 2018 and provides an in-depth analysis of the total payments made to employees in each city department, including the three proprietary departments.
